@@ -1,0 +1,91 @@
+/* Feuille de style de Flappy Enemy */
+
+.root {
+    -fx-background-color: #0b0a24;
+}
+
+/* Barre d'état en bas de la fenêtre */
+.status-bar {
+    -fx-background-color: #14102e;
+    -fx-padding: 0 12 0 12;
+    -fx-border-color: #2a2258 transparent transparent transparent;
+}
+
+.status-bar .label {
+    -fx-text-fill: #cfcaff;
+    -fx-font-size: 13px;
+}
+
+.status-bar .status-value {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-min-width: 36px;
+}
+
+.gauge-background {
+    -fx-background-color: #2a2258;
+    -fx-background-radius: 6;
+}
+
+.gauge-health {
+    -fx-background-color: #ff5d73;
+    -fx-background-radius: 6;
+}
+
+/* Boutons */
+.btn {
+    -fx-background-color: #3d2f8f;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 4 14 4 14;
+    -fx-cursor: hand;
+}
+
+.btn:hover {
+    -fx-background-color: #5541c9;
+}
+
+.btn:disabled {
+    -fx-opacity: 0.4;
+}
+
+.btn-action {
+    -fx-font-size: 16px;
+    -fx-padding: 8 28 8 28;
+    -fx-background-color: #e8a317;
+    -fx-text-fill: #1a1140;
+}
+
+.btn-action:hover {
+    -fx-background-color: #ffc23d;
+}
+
+/* Écrans superposés (menu, pause, game over) */
+.overlay {
+    -fx-background-color: rgba(8, 6, 30, 0.84);
+    -fx-spacing: 10;
+}
+
+.overlay-title {
+    -fx-font-size: 42px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffe98a;
+    -fx-effect: dropshadow(gaussian, #ff9f43, 14, 0.15, 0, 0);
+}
+
+.overlay-subtitle {
+    -fx-font-size: 15px;
+    -fx-text-fill: #cfcaff;
+}
+
+.info-text {
+    -fx-font-size: 13px;
+    -fx-text-fill: #e8e6ff;
+}
+
+.record-text {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #7dffb0;
+}
